@@ -1,0 +1,22 @@
+# Executables
+*.exe
+*.out
+
+# Testcases
+in
+out
+in.txt
+out.txt
+
+# Contest files
+AOJ/
+AtCoder/
+Codeforces/
+others/
+
+# VSCode setting files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/cpp.code-snippets
