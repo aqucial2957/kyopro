@@ -13,7 +13,9 @@
                 "-fsanitize=undefined",
                 "${file}",
                 "-o",
-                "${workspaceFolder}/a.out"
+                "${workspaceFolder}/a.out",
+                "-I",
+                "."
             ],
             "group": {
                 "kind": "build",
