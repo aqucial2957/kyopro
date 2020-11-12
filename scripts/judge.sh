@@ -9,7 +9,9 @@ fi
 problem=$1
 contest=${problem%_*}
 suffix=${problem##*_}
-curDir="/home/denjo/kyopro/AtCoder"
+
+kprDir=$(dirname $(cd $(dirname $0); pwd))
+curDir="$kprDir/AtCoder"
 
 if [ ${contest:0:3} = "abc" ]; then
     dir="${curDir}/ABC"
